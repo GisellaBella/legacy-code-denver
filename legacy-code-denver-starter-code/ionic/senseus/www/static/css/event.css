@@ -161,6 +161,7 @@ border-color: red;
     padding-left: 1%;
 }
 
+
 #inner-location-wrapper, #inner-calendar-wrapper {
     display: flex;
     align-items: center;
@@ -197,7 +198,14 @@ border-color: red;
   flex-grow: 0
   justify-content: right;
   }
+  .col10 {
+  width: 35%;
+  height: 100%;
+  flex-direction: row;
+  min-height: 100%;
+  }
 }
+
 .col10 {
   display: flex;
   width: 15%;
@@ -331,7 +339,7 @@ border-color: red;
 }
 
 .flex-row, .p0 {
-  padding:0;
+  padding:15px;
 }
 
 .pl1, #event-type-container .item-content {
